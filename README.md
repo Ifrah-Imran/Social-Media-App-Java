@@ -25,3 +25,13 @@ For **security reasons**, the database connection string is **not included** in 
 2. Create a database user
 3. Update the database connection string in the following file:
 
+
+Replace the placeholder connection string with your own credentials:
+```java
+mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<database-name>
+
+How to Run
+1. Clone this repository
+2. Open the project in any Java IDE (IntelliJ / Eclipse / NetBeans)
+3. Configure the database connection as described above
+4. Run Main.java
