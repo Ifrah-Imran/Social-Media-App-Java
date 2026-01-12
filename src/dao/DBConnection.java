@@ -13,12 +13,10 @@ public class DBConnection {
     // Your Atlas database name
     private static final String DB_NAME = "oop_proj";
 
-    // Replace this with your Atlas connection string
-    private static final String MONGO_URI = "mongodb+srv://maryammanahil_db_user:7S8RH45PY0EXJ2mC@cluster0.9zs8sok.mongodb.net/?appName=Cluster0";
-    // "mongodb+srv://ifrahimran_db_user:oBBhpSYSOrw6LoXu@cluster0.9zs8sok.mongodb.net/?appName=Cluster0";
-    // "mongodb+srv://ayeshakhan92068_db_user:BGGRRwItOxQOcTYS@cluster0.9zs8sok.mongodb.net/?appName=Cluster0";
-    // "mongodb+srv://ayeshakhan92068_db_user:BGGRRwItOxQOcTYS@cluster0.9zs8sok.mongodb.net/?appName=Cluster0";
-    // "mongodb+srv://ifrahimran_db_user:oBBhpSYSOrw6LoXu@cluster0.9zs8sok.mongodb.net/?appName=Cluster0";
+    // Replace this with your MongoDB Atlas connection string
+    private static final String MONGO_URI =
+    "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<database-name>?retryWrites=true&w=majority";
+
     private static GridFSBucket gridFSBucket;
 
     public static MongoDatabase getInstance() {
