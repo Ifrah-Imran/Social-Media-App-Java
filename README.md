@@ -36,5 +36,7 @@ How to Run
 3. Configure the database connection as described above
 4. Run Main.java
 ```
-#Contributors
--Ifrah-Imran -Maryam-oss -AreebaTahir10
+## Contributors
+-Ifrah-Imran 
+-Maryam-oss
+-AreebaTahir10
