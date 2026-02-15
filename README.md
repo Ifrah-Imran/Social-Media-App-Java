@@ -35,3 +35,6 @@ How to Run
 2. Open the project in any Java IDE (IntelliJ / Eclipse / NetBeans)
 3. Configure the database connection as described above
 4. Run Main.java
+```
+#Contributors
+-Ifrah-Imran -Maryam-oss -AreebaTahir10
